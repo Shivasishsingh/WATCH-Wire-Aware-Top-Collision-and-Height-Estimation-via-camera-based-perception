@@ -55,6 +55,24 @@ source patchfusion_env/bin/activate
 export PYTHONPATH="${PYTHONPATH}:/Vaibhav/shivasish1/sam2/PatchFusion"
 export PYTHONPATH="${PYTHONPATH}:/Vaibhav/shivasish1/sam2/PatchFusion/external"
 ```
+# Pretrained Model Weights
+
+Download pretrained weights from:
+
+* Coarse Pretrain
+  https://huggingface.co/zhyever/PatchFusion/blob/main/depthanything_vitl_u4k/coarse_pretrain/checkpoint_24.pth
+
+* Fine Pretrain
+  https://huggingface.co/zhyever/PatchFusion/blob/main/depthanything_vitl_u4k/fine_pretrain/checkpoint_24.pth
+
+* PatchFusion
+  https://huggingface.co/zhyever/PatchFusion/blob/main/depthanything_vitl_u4k/patchfusion/checkpoint_16.pth
+
+Place downloaded files inside:
+
+```text
+depth_generation/PatchFusion/pretrained_models/
+```
 
 ---
 
