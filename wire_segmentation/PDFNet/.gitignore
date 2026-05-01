@@ -1,7 +1,0 @@
-DATA/
-checkpoints/
-DAM_V2/
-__pycache__/
-*.pth
-*.pt
-*.ckpt
