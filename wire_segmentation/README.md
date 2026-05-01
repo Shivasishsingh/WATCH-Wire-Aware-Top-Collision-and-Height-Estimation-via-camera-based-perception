@@ -137,7 +137,7 @@ python Train_PDFNet.py \
 
 **Step 1 — Set input and output paths in `Test.py`**
 
-Open `Test.py` and set:
+Open `wire_segmentation/PDFNet/metric_tools/Test.py` and set:
 
 ```python
 test_dir  = '/path/to/your/input/images'
